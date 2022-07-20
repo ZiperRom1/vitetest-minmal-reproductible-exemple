@@ -1,0 +1,19 @@
+plugins:
+  eslint:
+    enabled: true
+    channel: "eslint-8"
+
+exclude_patterns:
+  - .yarn/
+  - coverage/
+  - dist/
+  - cypress/
+  - scripts/
+  - .pnp.cjs
+  - .pnp.loader.mjs
+  - "**/node_modules/"
+  - "**/*.d.ts"
+  - "**/*.min.js"
+  - "**/*.min.css"
+  - "**/__tests__/"
+  - "**/__mocks__/"
